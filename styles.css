@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#titleDesc{
+    text-align: center;
+}
+#sectionOneLabel{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 75px;
+}
+#sectionOneInput{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+#sectionTwo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+#checkBoxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+#healthCond{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: -5px;
+}
+#comments{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+#checkBoxAdjust{
+    margin-bottom: 25px;
+}
+#radios{
+    margin-bottom: -8px;
+}

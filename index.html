@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+  
+    <title>Document</title>
+</head>
+<body>
+    <div id=titleDesc>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+        Please take this quick survey!
+    </p>
+    </div>
+   
+    <form id="survey-form">
+        <div id="sectionOneLabel">
+        <label id="name-label">Name</label>
+        <label id="checkbox-label">Ethnicity</label>
+        <label id="email-label">E-mail</label>
+        <label id="number-label">Age</label>
+        </div>
+        <div id="sectionOneInput">
+        <input type="text" required id="name" placeholder="Name">       
+        <input type="email" required id="email" placeholder="E-mail Address"> 
+        <input type="number" required id="number" placeholder="Age" min="0" max="120">  
+        <select name="dropdown" id="dropdown" required>
+            <option value=""> --- Make a selection ---</option>
+            <option value="Caucasian">Caucasian</option>
+            <option value="African American">African American</option>
+            <option value="Hispanic/Latino">Hispanic/Latino</option>
+            <option value="Native American">Native American</option>
+            <option value="Pacific Islander">Pacific Islander</option>
+            <option value="Asian">Asian</option>
+            <option value="Native Hawaiian">Native Hawaiian</option>
+            <option value="Prefer not to answer">Prefer not to answer</option>
+        </select>
+        </div>
+        <div id="sectionTwo">
+        <label id="radios"><p id="petsOwned">Education Level</p></label>
+            <div id="radiosAdjust">
+            <input type="radio" id="highSchool" name="selection" value="highSchool">
+            <label for="highSchool">High School</label>
+        
+            <input type="radio" id="associatesDegree" name="selection" value="associatesDegree">
+            <label for="associatesDegree">Associate's Degree</label>
+        
+            <input type="radio" id="bachelorsDegree" name="selection" value="bachelorsDegree">
+            <label for="bachelorsDegree">Bachelor's Degree</label>
+         
+        
+            <input type="radio" id="mastersDegree" name="selection" value="mastersDegree">
+            <label for="mastersDegree">Master's Degree</label>
+            </div>
+          </div>
+        <div id="checkBoxes">
+            <label id="checkBoxes"><p id="healthCond">Existing Health Conditions:</p></label>
+            <div id="checkBoxAdjust">
+            <input type="checkbox" id="overWeight" name="checkBoxes" value="overWeight">
+                <label for="overWeight">Over-weight</label>
+        
+            <input type="checkbox" id="diabetes" name="checkBoxes" value="diabetes">
+                <label for="diabetes">Diabetes</label>
+        
+            <input type="checkbox" id="heartDisease" name="checkBoxes" value="heartDisease">
+                <label for="heartDisease">Heart Disease</label>
+        
+            <input type="checkbox" id="asthma" name="checkBoxes" value="asthma">
+                <label for="asthma">Asthma</label>
+        
+            <input type="checkbox" id="kidneyDisease" name="checkBoxes" value="kidneyDisease">
+                <label for="kidneyDisease">Kidney Disease</label>
+                </div>
+          </div>
+          <div id="comments">
+              <textarea id="additionalComments" name="comments" rows="5" columns="50" placeholder="Enter additional comments here."> </textarea>
+          </div>
+      <input type="submit" id="submit">
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
